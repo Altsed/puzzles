@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        System.out.println(getSum(data));
+      //  System.out.println(getSum(data));
         System.out.println(Arrays.toString(getMaxValueAndIndex(data)));
         System.out.println(Arrays.toString(getMinValueAndIndex(data)));
         System.out.println(getAverageValue(data));
