@@ -27,7 +27,7 @@ public class Main {
         System.out.println(getFirstPositiveNumber(data));
         System.out.println(getLastNegativeNumber(data));
         System.out.println(countEqualData(0, data));
-        System.out.println(Arrays.toString(shiftRight(data, 2)));
+//        System.out.println(Arrays.toString(shiftRight(data, 2)));
         Map<String, String> env = System.getenv();
         for (String envName : env.keySet()) {
             System.out.println(envName + " ===== " + env.get(envName));
