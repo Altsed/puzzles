@@ -15,19 +15,19 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-//        System.out.println(getSum(data));
-//        System.out.println(Arrays.toString(getMaxValueAndIndex(data)));
-//        System.out.println(Arrays.toString(getMinValueAndIndex(data)));
-//        System.out.println(getAverageValue(data));
-//        System.out.println(getQuantityOfEqualElements(33, data));
-//        System.out.println(getCountForNull(data));
-//        System.out.println(Arrays.toString(multiplyData(1, data)));
-//        System.out.println(Arrays.toString(resetOddData(data)));
-//        System.out.println(Arrays.toString(resetDataWithEvenIndex(data)));
-//        System.out.println(getFirstPositiveNumber(data));
-//        System.out.println(getLastNegativeNumber(data));
-//        System.out.println(countEqualData(0, data));
-//        System.out.println(Arrays.toString(shiftRight(data, 2)));
+        System.out.println(getSum(data));
+        System.out.println(Arrays.toString(getMaxValueAndIndex(data)));
+        System.out.println(Arrays.toString(getMinValueAndIndex(data)));
+        System.out.println(getAverageValue(data));
+        System.out.println(getQuantityOfEqualElements(33, data));
+        System.out.println(getCountForNull(data));
+        System.out.println(Arrays.toString(multiplyData(1, data)));
+        System.out.println(Arrays.toString(resetOddData(data)));
+        System.out.println(Arrays.toString(resetDataWithEvenIndex(data)));
+        System.out.println(getFirstPositiveNumber(data));
+        System.out.println(getLastNegativeNumber(data));
+        System.out.println(countEqualData(0, data));
+        System.out.println(Arrays.toString(shiftRight(data, 2)));
         Map<String, String> env = System.getenv();
         for (String envName : env.keySet()) {
             System.out.println(envName + " ===== " + env.get(envName));
